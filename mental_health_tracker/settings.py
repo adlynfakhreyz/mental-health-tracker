@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "andi-muhammad37-mentalhealthtracker.pbp.cs.ui.ac.id", "andi-muhammad37-mentalhealthtracker2.pbp.cs.ui.ac.id"]
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -122,3 +121,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://andi-muhammad37-mentalhealthtracker2.pbp.cs.ui.ac.id/", "https://andi-muhammad37-mentalhealthtracker2.pbp.cs.ui.ac.id"]
